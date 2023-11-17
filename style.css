@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  background: #fff;
+}
+section {
+  width: 80%;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left-section {
+  margin-top: 110px;
+}
+.left-section img {
+  width: 350px;
+  height: 106px;
+  margin-left: 0px;
+  margin-left: -44px;
+}
+
+.left-section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  width: 500px;
+  text-align: left;
+  margin-top: -15px;
+}
+.right-section .login-content {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  font-family: inherit;
+}
+.right-section .login-content input {
+  width: 330px;
+  height: 40px;
+  margin: 10px 0px 1px 0px;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  padding-left: 18px;
+}
+.right-section .login-content .button-1 {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 48px;
+  padding: 0 20px;
+  color: #ffffff;
+  width: 368px;
+  height: 48px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.right-section .login-content .button-2 {
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 48px;
+  padding: 0 20px;
+  color: #ffffff;
+  width: 200px;
+  height: 48px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+.right-section p.celebrity {
+  margin-top: 26px;
+
+  margin-left: 45px;
+  font-size: smaller;
+}
+
+p.horizontal-line {
+  border: 1px solid lightgray;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 22px;
+}
+.login-content a {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+section {
+  margin-top: 100px;
+}
+
+p.celebrity a {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
